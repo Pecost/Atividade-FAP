@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Por do sol no vale</title>
+</head>
+<body>
+    <header>
+        <h1><img src="./img/Ativo 48logoTur.png"></h1>
+        <nav>
+            <ul>
+                <li><a href="home">Home</a></li>
+                <li><a href="sobre">Sobre</a></li>
+                <li><a href="galeria">Galeria</a></li>
+                <li><a href="como-chegar">Como Chegar</a></li>
+                <li><a href="contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <h2>Pôr do sol no vale</h2>
+        <p>Localizado na entrada da cidade de Jacaraú PB, a vista para o pôr do sol possui uma das mais belas paisagens para contemplar o sol se pôr, com vista para os vales e vejetações do local, compõe um cenário encandador para apreciar o fim de tarde. </p>
+        <p>É um lugar que inspira, renova e conecta. Um lugar onde o tempo parece desacelerar, e a beleza do mundo natural se desdobra diante de seus olhos. Seja para um retiro tranquilo ou uma escapada romântica, o vale de Jacaraú é um presente da natureza que espera ser explorado e apreciado. Venha, descubra e deixe-se levar pela beleza deste local verdadeiramente encantador.</p>
+        <h1><img src="./img/pordosol.png"></h1>
+    </div>
+    <div>
+        <button type="button">Conheça outros lugares</button>
+    </div>
+    <footer>
+        <p>&copy; 2023 Turistando</p>
+        <ul>
+            <li><a href="http://facebook.com">Facebook</a></li>
+            <li><a href="http://twitter.com">Twitter</a></li>
+            <li><a href="http://instagram.com">Instagram</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
