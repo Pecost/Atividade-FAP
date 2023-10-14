@@ -1,0 +1,278 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FAF9E7;
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
+    color: #54927D;
+}
+.logo {
+    margin: 0;
+    height: 40px;
+}
+
+.menuOpcoes {
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    margin-bottom: 30px;
+}
+
+.search {
+    display: flex;
+    padding-top: 36px;
+    align-items: center;
+}
+
+
+#logo {
+    margin-top: 0;
+    /*float: left;*/
+}
+
+.menuOpcoes ul {
+    float: left;
+    margin-top: 50px;
+    display: inline-flex;
+    position: relative;
+    right: auto;
+    overflow: hidden;
+    max-width: 100%;
+    padding: 0 20px;
+    align-items: left;
+    justify-content: center;
+
+}
+
+.menuOpcoes ul li {
+    display: flex;
+    margin-left: 0;
+    margin-right: 25px;
+    text-decoration: none;
+}
+
+.menuOpcoes a {
+    text-decoration: none;
+    color: #54927D;
+    text-transform: none;
+    transition: 0.25s ease;
+}
+
+.menuOpcoes ul {
+    display: flex;
+    padding: 0;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.menuOpcoes ul:hover a {
+    color: #CBCCA2;
+}
+
+.menuOpcoes ul:hover a:hover {
+    color: #54927D;
+    box-shadow: 0 2px 0 0 currentColor;
+}
+
+.busca {
+    background-color: #54927D;
+    border-radius: 50px;
+    height: 20px;
+    width: 200px;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.busca::placeholder {
+    color: #ffffff;
+}
+
+.button-busca {
+    background-image: url('./lupa.png');
+    background-repeat: no-repeat;
+    background-color: #54927D;
+    background-size: 12px;
+    background-position: center;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 10px;
+    width: 10px;
+    height: 10px;
+}
+
+.button-busca:hover {
+    background-color: #54927D;
+}
+
+.button-busca:active {
+    background-color: #CBCCA2;
+}
+
+.texto {
+    text-align: justify;
+}
+
+.texto h2 {
+    text-align: start;
+    margin: 0;
+    font-size: 30px;
+}
+
+.texto p {
+    font-size: 14px;
+}
+
+.conteudo-text {
+    display: inline-flex;
+}
+.img-principal {
+    margin-left: 30px;
+    margin-right: 0 auto;
+}
+
+.img-sol {
+    border-radius: 100px;
+}
+
+.button-mais {
+    color: #54927D;
+    background-color: #54927D;
+    background-size: 12px;
+    background-position: center;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.button-mais:hover {
+    background-color: #54927D;
+}
+
+.button-mais:active {
+    background-color: #CBCCA2;
+}
+
+.mais-opcoes {
+    background: none;
+    border: none;
+    color: #ffffff;
+}
+
+.texto-rodape {
+    border-top-style: solid;
+    border-top-width: 1px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.dadosrodape {
+    float: left;
+    font-size: 10px;
+    margin: 0 auto;
+}
+
+.contatos {
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-left: 20px;
+    margin: 0 0.75em 0 0.75em;
+    justify-content: flex-end;
+}
+
+.contatos ul {
+    margin-top: 50px;
+    display: inline-flex;
+    position: relative;
+    right: auto;
+    overflow: hidden;
+    max-width: 100%;
+    padding: 0 20px;
+    align-items: left;
+    justify-content: center;
+}
+
+.contatos ul li {
+    display: inline;
+    margin-left: 20px;
+    text-decoration: none;
+    /*margin: 0 0.75em 0 0.75em;*/
+}
+
+.contatos a {
+    text-decoration: none;
+    color: #54927D;
+    text-transform: none;
+    transition: 0.25s ease;
+}
+
+.contatos ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.contatos ul:hover a {
+    color: #CBCCA2;
+}
+
+.contatos ul:hover a:hover {
+    color: #54927D;
+    box-shadow: 0 2px 0 0 currentColor;
+}
+
+.container-rodape {
+    margin-bottom: 20px;
+}
+
+.facebook {
+    background-size: 12px;
+    background-position: center;
+    padding: 10px;
+    height: 15px;
+    width: 15px;
+}
+
+.FB-background {
+    border-radius: 50px;
+    background-color: #54927D;
+    margin-left: 30px;
+}
+
+.instagram {
+    background-size: 12px;
+    background-position: center;
+    padding: 10px;
+    height: 15px;
+    width: 15px;
+}
+
+.inst-background {
+    border-radius: 50px;
+    background-color: #54927D;
+    margin-left: 30px;
+}
+
+.twitter {
+    background-size: 12px;
+    background-position: center;
+    padding: 10px;
+    height: 15px;
+    width: 15px;
+}
+
+.twt-background {
+    border-radius: 50px;
+    background-color: #54927D;
+    margin-left: 30px;
+}
